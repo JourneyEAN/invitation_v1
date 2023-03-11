@@ -41,6 +41,7 @@
   </head>
 
   <body>
+
     <!-- Begin Preloader -->
     <div class="preloader-wrapper">
       <div class="preloader">
@@ -91,6 +92,7 @@
         </nav>
         <!-- End Mobile Nav -->
         <!-- Begin Hero Content-->
+
         <div class="hero-body">
           <div class="container has-text-centered">
             <h1 class="subtitle">Undangan Pernikahan</h1>
@@ -175,7 +177,9 @@
       <!-- End Hero -->
     </div>
     <!-- End Header -->
-
+   <div class="splash">
+      <h1 class="splash-header">Journey Project's</h1>
+    </div>
     <!-- Begin Main Content -->
     <div class="main-content">
     <!-- Begin regular-section-->
@@ -466,11 +470,11 @@
               <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
                 Kami yang berbahagia,
                 <br>
-                <a class="instagram":" href="https://instagram.com/#" target="_blank" alt="Instagram Sherly">
+                <a class="instagram":" href="https://instagram.com/#" target="_blank" alt="#">
                   <i class="fab fa-instagram"></i> @wanita
                 </a>
                 &nbsp
-                <a class="instagram" href="https://instagram.com/#" target="_blank" alt="Instagram Daeng">
+                <a class="instagram" href="https://instagram.com/#" target="_blank" alt="#>
                   <i class="fab fa-instagram"></i> @pria
                 </a>
               </p>
@@ -505,5 +509,14 @@
         duration: 800,
       });
     </script>
+     <script>
+      var splashScreen = document.querySelector('.splash');
+    splashScreen.addEventListener('click',()=>{
+      splashScreen.style.opacity = 0;
+      setTimeout(()=>{
+        splashScreen.classList.add('hidden')
+      },610)
+    })
+     </script>
   </body>
 </html>

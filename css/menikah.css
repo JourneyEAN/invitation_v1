@@ -1,5 +1,33 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script");
 
+.splash {
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  background-color: #21272e;
+  transition: all ease-in-out 600ms;
+}
+
+.hidden {
+  transition: 0.5s;
+  display: none;
+}
+
+.splash-header {
+  height: 100%;
+  font-family: consolas;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -40,7 +68,7 @@ html {
 
 .hero {
   background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://i.postimg.cc/BnH4WQw3/wedbg.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
